@@ -1,4 +1,5 @@
 # Express Wolox Logger
+[![Build Status](https://travis-ci.org/martinremis/express-wolox-logger.svg?branch=master)](https://travis-ci.org/martinremis/express-wolox-logger) [![Maintainability](https://api.codeclimate.com/v1/badges/2a3bc99d9dc3c4614520/maintainability)](https://codeclimate.com/github/martinremis/express-wolox-logger/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a3bc99d9dc3c4614520/test_coverage)](https://codeclimate.com/github/martinremis/express-wolox-logger/test_coverage)
 
 ExpressJS logger that wraps [pino](https://github.com/pinojs/pino) with additional features like middlewares for unique request ids and automatic logging of request beginnings and endings.
 

@@ -1,4 +1,9 @@
+prepare:
+  fetch:
+  - url: "https://raw.githubusercontent.com/Wolox/eslint-config-wolox/master/index.js"
+    path: ".eslintrc.js"
 plugins:
   eslint:
     enabled: true
     channel: "eslint-5"
+    config: ".eslintrc.js"
